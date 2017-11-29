@@ -1,25 +1,7 @@
-# ReduxSimpleStarter
+# Ticking Clock
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+## Requirements
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+1) Time should update every second
+2) CurrentTime will be its own component
+3) Use setInterval and toLocaleTimeString
